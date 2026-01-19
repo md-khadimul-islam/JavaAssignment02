@@ -72,9 +72,9 @@ public class TicketManager {
         tl.addTicket(t4);
         tl.addTicket(t5);
 
-        // tl.displayAllTickets();
+        tl.displayAllTickets();
         tl.searchTicket("t001");
-        // tl.delTicket("t302");
+        tl.delTicket("t302");
         System.out.println("Total Revenue = " + tl.totalRevenue());
     }
 }
