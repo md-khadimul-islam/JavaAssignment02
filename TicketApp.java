@@ -13,6 +13,10 @@ abstract class Ticket {
         this.date = date;
     }
 
+    public String getTicketID() {
+        return ticketID;
+    }
+
     abstract double calculatePrice();
 
     abstract void displayInfo();
